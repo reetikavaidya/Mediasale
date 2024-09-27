@@ -24,7 +24,7 @@ function CartItem({ item }) {
 
   return (
  
-    <div className="flex justify-between items-center p-4  bg-white p-5">
+    <div className="flex justify-between items-center  bg-white p-5">
       {/* Product Image and Details */}
       <div className="flex space-x-4 items-center">
         <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded-md" />
